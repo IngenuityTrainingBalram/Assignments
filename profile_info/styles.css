@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+    margin-top: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp3238529.jpg);
+    align-items: center;
+}
+
+img{
+    border: 3px solid black;
+    border-radius: 150px;
+    align-items: baseline;
+}
+
+.links{
+    padding: 2px;
+    margin-top: 2px;
+}
