@@ -1,0 +1,45 @@
+ .wholeBox {
+     max-width: 750px;
+     margin: auto;
+     font-family: "cursive";
+ }
+ 
+ .toolbar {
+     width: 100%;
+     background-color: #194cd8;
+     overflow: auto;
+ }
+ 
+ .toolbar a {
+     float: left;
+     width: 11%;
+     text-align: center;
+     padding: 6px 5px;
+     transition: all 0.5s ease;
+     color: white;
+ }
+ 
+ .toolbar a:hover {
+     background-color: rgb(205, 243, 69);
+ }
+ 
+ .selected {
+     background-color: rgb(231, 14, 14);
+ }
+ 
+ #my-canvas {
+     width: 100%;
+     border: 4px solid #2215df;
+ }
+ 
+ #img-data-div {
+     width: 100%;
+     max-width: 900px;
+     height: 200px;
+ }
+ /* Resize image to container */
+ 
+ .toolbar a img {
+     max-width: 100%;
+     height: auto;
+ }
