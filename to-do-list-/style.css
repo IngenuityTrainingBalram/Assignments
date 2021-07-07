@@ -1,0 +1,59 @@
+ul {
+    padding: 0;
+}
+
+.header {
+    padding-bottom: 15px;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px;
+    color:  #0df388;
+}
+
+p {
+    font-size: 20px;
+    color: #080808;
+    top: 30px;
+    margin-top: 13px;
+    font-family: cursive;
+}
+.taskname{
+    width: 925px;
+    height: 20px;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+.list-group-item {
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px dashed rgba(169, 167, 167, 0.34) !important;
+    color: black;
+    font-size: 19px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.btnTask {
+    background: #0df388;
+    margin-top: 5px;
+    font-family: cursive;
+    float:inline-end;
+    height: 30px;
+    width: 100px;
+}
+.btnClear{
+    background: #0df388;
+    font-family: cursive;
+
+}
+.btnClear, .btnClear:hover {
+    color:black;
+    float: right;
+    height: 30px;
+    width: 100px;
+}
+
+
+

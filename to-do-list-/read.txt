@@ -1,0 +1,4 @@
+add task
+single click to line-through
+double click to delete a task
+clear all to clear the list
