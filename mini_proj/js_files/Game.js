@@ -136,17 +136,7 @@ export class Game {
 
             mysound.play();
         }
-        // let aliveBricks = this.bricksCollection.filter(brick => brick.isAlive);
-        // if (aliveBricks.length === 28) {
-        //     this.ball.speed++;
-        // } else if (aliveBricks.length === 14) {
-        //     this.ball.speed++;
-        //     this.paddle.maxSpeed++;
-        // } else if (aliveBricks.length === 7) {
-        //     this.ball.speed++;
-        // } else if (aliveBricks.length === 0) {
-        //     this.gameOver.isGameOver = true;
-        // }
+
     }
     draw() {
         let canvas = this.canvas;
